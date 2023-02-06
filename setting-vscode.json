@@ -1,0 +1,63 @@
+{
+    "editor.fontLigatures": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
+  
+    "material-icon-theme.activeIconPack": "react",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.formatOnSave": true,
+    "diffEditor.wordWrap": "off",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 100,
+    "editor.cursorWidth": 3,
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.lineHeight": 28,
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+    "workbench.startupEditor": "none",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+  
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    },
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.cursorSmoothCaretAnimation": "on"
+  }
+  
